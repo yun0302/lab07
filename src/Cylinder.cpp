@@ -5,7 +5,6 @@
 #include<iomanip>
 #include<cmath>
 double pi = M_PI;
-//const double pi = 3.1415926535897932384626433; 
 
 double Cylinder :: SurfaceArea(){
     double area = Cylinder::Circumference() * height +  pi * radius * radius * 2;
